@@ -2,11 +2,39 @@
 <html>
 <head>
     <title>Tic-Tac-Toe</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
 </head>
 <body>
-    <div class="gridContainer"></div>
+    <div class="container">
+        <div class="gameContainer">
+            <div class="headerContainer">
+                <div class="gameTitle">Tic Tac Toe</div>
+                <div class="currentPlayer"></div>
+            </div>
+            <div class="boardContainer hide">
+                <div class="tile t00"></div>
+                <div class="tile t01"></div>
+                <div class="tile t02"></div>
+                <div class="tile t10"></div>
+                <div class="tile t11"></div>
+                <div class="tile t12"></div>
+                <div class="tile t20"></div>
+                <div class="tile t21"></div>
+                <div class="tile t22"></div>
+
+            </div>
+            <div class="controlContainer">
+                <div class="playerNameContainer">
+                    <form>
+                        <input type="text" class="playerOneName" name="playerOne" value="ai">
+                        <input type="text" class="playerTwoName" name="playerTwo" value="ai">
+                    </form>
+                </div>
+                <button class="playButton">Play Game</button>
+                <button class="restartButton hide">Restart Game</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
