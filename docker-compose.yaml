@@ -1,7 +1,8 @@
 version: '3'
 services:
   web:
-    container_name: blog-app
+    container_name: tic-tac-toe 
+    image: tic-tac-toe
     build:
       context: .
       target: production
