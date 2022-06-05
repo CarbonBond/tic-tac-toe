@@ -2,7 +2,8 @@ body{
     display:flex;
     align-items: center;
     justify-content:center;
-    background-color:rgb(193, 226, 236);
+    background-color:hsl(260, 30%, 6%);
+  color:white;
 }
 
 .container{
@@ -31,7 +32,7 @@ body{
     gap: 4px;
     width: 90%;
     height: 90%;
-    background-color: black;
+    background-color: white;
 }
 .controlContainer{
     display:flex;
@@ -50,7 +51,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 16vmin;
-    background-color:rgb(193, 226, 236);
+    background-color:hsl(260, 30%, 6%);
     user-select: none;
 }
 
