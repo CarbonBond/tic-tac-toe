@@ -1,9 +1,14 @@
+:root {
+  --purple: hsl(260, 40%, 16%);
+
+}
+
 body{
     display:flex;
     align-items: center;
     justify-content:center;
-    background-color:hsl(260, 40%, 16%);
-  color:white;
+    background-color: var(--purple);
+    color:white;
 }
 
 .container{
@@ -51,7 +56,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 16vmin;
-    background-color:hsl(260, 30%, 6%);
+    background-color: var(--purple);
     user-select: none;
 }
 
