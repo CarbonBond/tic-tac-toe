@@ -8,3 +8,4 @@ services:
       target: production
     ports:
       - "8085:80"
+    restart: unless-stopped 
